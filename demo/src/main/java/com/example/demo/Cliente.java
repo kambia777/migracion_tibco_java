@@ -11,6 +11,7 @@ public class Cliente {
     private Long id;
 
     private String codigo;
+    private String nombre;
 
     // Getters y Setters
     public Long getId() {
@@ -28,5 +29,13 @@ public class Cliente {
     public void setCodigo(String codigo) {
         this.codigo = codigo;
     }
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
 
 }
